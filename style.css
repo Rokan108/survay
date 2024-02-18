@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.main-heading {
+    text-align: center;
+    color:#333;
+    padding-top: 50px;
+    filter: drop-shadow(0 0 0.75rem rgb(210, 27, 27));
+}
+
+.form-class {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
+
+.form-class h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-class input[type="text"],
+.form-class input[type="email"],
+.form-class input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-class select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-class input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-class button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-class button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#countryDropdown {
+    position: relative;
+}
+
+#countrySearch {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#countrySelect {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.contact{
+    margin-top: 40px;
+}

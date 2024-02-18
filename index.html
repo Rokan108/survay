@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survay Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="main-heading">Survay Form</h2>
+    <form action="" class="form-class">
+        <div class="yourname">
+            <h3 class="namedetails">Name Details </h3>
+            <input type="text" class="firstname" placeholder="First Name"><br><br>
+            <input type="text" class="lastname" placeholder="Last Name"><br><br>
+        </div>
+        <div class="address">
+            <h3>Address</h3>
+            <input type="text" class="addresstext" placeholder="Street Address"><br><br>
+            <input type="text" class="addresstext" placeholder="Street Address line 2"><br><br>
+            <input type="text" class="city" placeholder="City"><br><br>
+            <input type="text" class="state" placeholder="State"><br><br>
+            <div id="countryDropdown">
+                <input type="search" id="countrySearch" placeholder="Search by country name..."><br>
+                <select id="countrySelect" required>
+                </select>
+            </div>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <input type="text" class="phone" placeholder="Phone Number"><br><br>
+            <input type="email" class="email" placeholder="Email address"><br>
+        </div>
+        <div class="personaldetails">
+            <h3>Personal Details</h3>
+            <p>Gender:</p>
+            <input type="radio">Male
+            <input type="radio">Female
+            <input type="radio">Others
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
